@@ -4,8 +4,11 @@ Inference of ScaledYOLOv4 using PyTorch framwork
 
 ## install mish activation funciton for cuda
 cd /
+
 git clone https://github.com/JunnYu/mish-cuda
+
 cd /mish-cuda
+
 python setup.py build install
 
 ## run prod_detect.py
