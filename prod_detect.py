@@ -202,7 +202,7 @@ if __name__ == '__main__':
     parser.add_argument('--agnostic-nms', action='store_true', help='class-agnostic NMS')
     parser.add_argument('--augment', action='store_true', help='augmented inference')
     parser.add_argument('--update', action='store_true', help='update all models')
-    parser.add_argument('--individual', default=True, action='store_true', help='save unique detected images for both classes')
+    parser.add_argument('--individual', action='store_false', help='save unique detected images for both classes')
     parser.add_argument('--write_conf', action='store_true', help='write conf value to txt')
     parser.add_argument('--show_conf', action='store_true', help='show conf value on detected box')
     opt = parser.parse_args()
