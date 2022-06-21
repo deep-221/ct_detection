@@ -15,3 +15,4 @@ python setup.py build install
 (default parameters are changed in argparse in prod_detect.py for prod use)
 
 ## libraries
+pip install -r requirements.txt
